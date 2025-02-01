@@ -1,4 +1,4 @@
-# Step 1: Define our function
+# EXERCISE 1
 def square(x):  # inputs to the function are placed inside the parentheses
     """Calculate the square of a function."""  # This line is called a "docstring"; it is optional but recommended! It lets you explain what the function does.
     return x**2  # define what the function returns. Note that ** is the power operator, * is multiply.
@@ -12,7 +12,7 @@ x = 16
 y = square(x)
 print('The square of 16 is ',y)
 
-
+#EXERCISE 2
 def evaluate_line(a, b, c, x):
     """Calculate y = a*x**2 + b*x+ c for a number x."""
     return a*x**2 + b*x+ c
