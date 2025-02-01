@@ -11,3 +11,13 @@ print('The value of y is', y)  # print the value of variable "y" to the console
 x = 16
 y = square(x)
 print('The square of 16 is ',y)
+
+
+def evaluate_line(a, b, c, x):
+    """Calculate y = a*x**2 + b*x+ c for a number x."""
+    return a*x**2 + b*x+ c
+
+# Example of calling evaluate_line
+a, b, c, x = 1, 2, 1, 1  # define function inputs (using "unpacking", which allows multiple variable definitions on the same line)
+y = evaluate_line(a, b, x)  # call the function
+print(f'The value of {a}*{x}**2 + {b}*{x} + {c} is {y}')  # Here I've used f-string formatting for fancier printing. Look up a tutorial to get more info!
