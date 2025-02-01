@@ -21,3 +21,7 @@ def evaluate_line(a, b, c, x):
 a, b, c, x = 1, 2, 1, 1  # define function inputs (using "unpacking", which allows multiple variable definitions on the same line)
 y = evaluate_line(a, b, c, x)  # call the function
 print(f'The value of {a}*{x}**2 + {b}*{x} + {c} is {y}')  # Here I've used f-string formatting for fancier printing. Look up a tutorial to get more info!
+
+#EXERCISE 3
+long_text = 'I love cats quite a lot. And to be honest dogs are pretty cool as well. But nothing is quite like a good slice of cake.'
+sentences = long_text.split()
