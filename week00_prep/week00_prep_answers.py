@@ -9,3 +9,5 @@ y = square(x)  # call function "square" on variable x, and assign the output of 
 print('The value of y is', y)  # print the value of variable "y" to the console
 
 x = 16
+y = square(x)
+print('The square of 16 is ',y)
