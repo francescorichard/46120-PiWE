@@ -2,11 +2,20 @@
 
 TA office hours: Mondays from 13:00 to 15:00
 
-Slides: to be uploaded.
+Slides: here in this subfolder.
 
 ## Overview
 
+Functions are a way to bundle code that is meant to be executed multiple
+times, but with different values. A test is a kind of function that uses an
+assert statement to check whether the behaviour of a part of code matches
+what is expected.
 
+This week, you will reorganize your pre-class assignment
+code into functions and a main script, and you will update the Week 2 tests
+to check whether your functions work as expected. You will finish off by
+doing some tutorials on scientific Python packages as preparation for next
+week.
 
 ## Homework due next week
 
@@ -28,11 +37,12 @@ of topics. You are welcome to complete, or not complete, parts marked
 
 1. Individually, fill out the [46120 Pre-evaluation](https://evaluering.dtu.dk/) (3 minutes).  
 1. Individually, read through this homework description.  
-1. Align with your team on your collaboration structure and document it:
-    * Will you split into subteams? In your subteams, will you pair-program?  
-    * What is your branch structure? One per person? One per subteam?  
-    * Create and push a file called `Collaboration.md` to your team repo
-      that summarizes your discussion.  
+1. Take a team meeting and:  
+    * Create a file in your team repo called `Collaboration.md`.  
+    * Discuss: Will you split into subteams? In your subteams, will you pair-program?
+      Meet physically or virtually?    
+    * Discuss: What is your branch structure? One per person? One per subteam?  
+    * Write your decisions in `Collaboration.md` and push it.  
     * Other team members, pull `Collaboration.md`
 1. Run the Week 2 tests, which should FAIL at this point:  
     * Open an Anaconda Prompt.  
@@ -44,7 +54,7 @@ of topics. You are welcome to complete, or not complete, parts marked
       the tests to fail? (Do NOT try to fix the error yet! Just try
       to diagnose.)
 
-### PART 2A: Restructure your pre-class code
+### PART 2A: Restructure/diagram your pre-class code
 
 1. Create and checkout into a new branch, you choose the name.  
 1. Restructure the code in `preclass_assignment` in your team's repo such that:  
@@ -56,6 +66,15 @@ of topics. You are welcome to complete, or not complete, parts marked
       There should be no functions defined in `main.py`.
 1. Run `main.py` and make sure it properly imports and executes the
    functions.  
+1. In VS Code, install the [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
+   extension by Henning Dieterichs.  
+1. In your team repo, create a file called `FunctionDiagram.drawio`:  
+    * Open the file in VS Code. You should have a nice view of an
+      empty drawing canvas.  
+    * Create black-box diagrams of the five functions in `functions.py`.
+      Remember to include types of inputs and outputs!
+    * Note that if a function does not explicitly return an output, then
+      the return value is `None`. 
 1. Push your branch.  
 
 ### PART 2B: Analyse/update tests
@@ -137,6 +156,7 @@ of topics. You are welcome to complete, or not complete, parts marked
 ## Videos, tutorials, and other resources
 
 * [PiWE tutorials (Jupyter notebooks) on numpy, matplotlib, pands](https://github.com/DTUWindEducation/46120-PiWE/tree/main/tutorials_scientific_python)  
+* [Tutorial on assert statements](https://www.w3schools.com/python/ref_keyword_assert.asp)  
 * [Introduction to Python functions, including return values and keyword arguments](https://openstax.org/books/introduction-python-programming/pages/6-introduction)  
 * [Short overview on Given, When, Then and connection to other testing concepts](https://martinfowler.com/bliki/GivenWhenThen.html)  
 * [A gentle introduction to testing with pytest](https://bas.codes/posts/python-pytest-introduction)  
