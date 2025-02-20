@@ -1,6 +1,10 @@
 # PiWE Week 2: Functions and Tests
 
+<<<<<<< HEAD
 TA office hours: Mondays from 13:00 to 15:00
+=======
+TA office hours: Mondays and Wednesdays from 13:00 to 14:30.
+>>>>>>> cde39cb5b28d1bf339622d109c4ac18430f7e325
 
 Slides: here in this subfolder.
 
@@ -159,4 +163,8 @@ of topics. You are welcome to complete, or not complete, parts marked
 * [Tutorial on assert statements](https://www.w3schools.com/python/ref_keyword_assert.asp)  
 * [Introduction to Python functions, including return values and keyword arguments](https://openstax.org/books/introduction-python-programming/pages/6-introduction)  
 * [Short overview on Given, When, Then and connection to other testing concepts](https://martinfowler.com/bliki/GivenWhenThen.html)  
+<<<<<<< HEAD
 * [A gentle introduction to testing with pytest](https://bas.codes/posts/python-pytest-introduction)  
+=======
+* [A gentle introduction to testing with pytest](https://bas.codes/posts/python-pytest-introduction)  
+>>>>>>> cde39cb5b28d1bf339622d109c4ac18430f7e325
